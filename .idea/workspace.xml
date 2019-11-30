@@ -2,53 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1369fe38-3c83-444f-be7d-a1654736fc5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MostSimilarMovies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MostSimilarUsers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrepData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datacollector.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CSE482.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CSE482.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MostSimilarMovies.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MostSimilarMovies.py" beforeDir="false" afterPath="$PROJECT_DIR$/MostSimilarMovies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MostSimilarUsers.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MostSimilarUsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/MostSimilarUsers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrepData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/.idea/bigdata.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/bigdata/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/bigdata/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/bigdata/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/bigdata/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/ratings/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/ratings/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/ratings/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/ratings/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/ratings/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/ratings/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/ratings/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata/ratings/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigdata/bigdata/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bigdata/bigdata/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigdata/movie_ratings/MostSimilarUsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bigdata/movie_ratings/MostSimilarUsers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigdata/movie_ratings/MovieRatingData.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bigdata/movie_ratings/MovieRatingData.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MostSimilarUsers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PrepData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MostSimilarMovies.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="67" column="15" lean-forward="true" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,22 +47,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>users =</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/PrepData.py" />
-        <option value="$PROJECT_DIR$/MostSimilarMovies.py" />
-        <option value="$PROJECT_DIR$/MostSimilarUsers.py" />
-      </list>
-    </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -88,27 +64,17 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CSE482" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE482" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1ULZwzzluuiajfLKLzjccWkTBsD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -136,6 +102,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MostSimilarMovies.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -157,6 +124,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MostSimilarUsers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -186,78 +154,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573579021323</updated>
+      <workItem from="1575138080528" duration="2004000" />
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="37" width="1280" height="727" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2494043" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17671233" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MostSimilarUsers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrepData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MostSimilarMovies.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="67" column="15" lean-forward="true" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MostSimilarUsers.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CSE482$MostSimilarUsers.coverage" NAME="MostSimilarUsers Coverage Results" MODIFIED="1575140560181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
