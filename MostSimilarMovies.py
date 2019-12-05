@@ -4,7 +4,8 @@ from sklearn.neighbors import NearestNeighbors
 # utils import
 from fuzzywuzzy import fuzz
 from operator import itemgetter
-from . MovieRatingData import MovieRatingData
+from MovieRatingData import MovieRatingData
+import statistics
 
 class KnnRecommender:
     """

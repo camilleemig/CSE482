@@ -2,43 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1369fe38-3c83-444f-be7d-a1654736fc5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CSE482.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CSE482.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MostSimilarMovies.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MostSimilarMovies.py" beforeDir="false" afterPath="$PROJECT_DIR$/MostSimilarMovies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MostSimilarUsers.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MostSimilarUsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/MostSimilarUsers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrepData.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/.idea/bigdata.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/bigdata/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/bigdata/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/bigdata/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/bigdata/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/ratings/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/ratings/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/ratings/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/ratings/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/ratings/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/ratings/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/ratings/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata/ratings/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieRatingData.py" beforeDir="false" afterPath="$PROJECT_DIR$/MovieRatingData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bigdata/bigdata/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bigdata/bigdata/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bigdata/movie_ratings/MostSimilarUsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bigdata/movie_ratings/MostSimilarUsers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bigdata/movie_ratings/MovieRatingData.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bigdata/movie_ratings/MovieRatingData.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,6 +52,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -89,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MostSimilarUsers">
+  <component name="RunManager" selected="Django server.bigdata">
     <configuration name="MostSimilarMovies" type="PythonConfigurationType" factoryName="Python">
       <module name="CSE482" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,7 +112,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="bigdata" type="Python.DjangoServer" factoryName="Django server">
+      <module name="bigdata" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="bigdata.settings" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Django server.bigdata" />
       <item itemvalue="Python.MostSimilarMovies" />
       <item itemvalue="Python.MostSimilarUsers" />
     </list>
@@ -154,7 +157,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573579021323</updated>
-      <workItem from="1575138080528" duration="2004000" />
+      <workItem from="1575138080528" duration="2205000" />
+      <workItem from="1575210629679" duration="5781000" />
+      <workItem from="1575326393742" duration="4922000" />
     </task>
     <servers />
   </component>
@@ -166,7 +171,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -176,14 +183,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MostSimilarUsers.py</url>
-          <line>78</line>
+          <url>file://$PROJECT_DIR$/../bigdata/movie_ratings/views.py</url>
+          <line>53</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CSE482$MostSimilarUsers.coverage" NAME="MostSimilarUsers Coverage Results" MODIFIED="1575140560181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CSE482$MostSimilarMovies.coverage" NAME="MostSimilarMovies Coverage Results" MODIFIED="1575212916488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CSE482$MostSimilarUsers.coverage" NAME="MostSimilarUsers Coverage Results" MODIFIED="1575248219550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

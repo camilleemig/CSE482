@@ -1,6 +1,8 @@
 from operator import itemgetter
 from math import sqrt
+from statistics import mean
 from MovieRatingData import MovieRatingData
+from MostSimilarMovies import KnnRecommender
 
 def find_cosine_similarity(ratings1, ratings2):
     d1 = 0
@@ -15,7 +17,7 @@ def find_cosine_similarity(ratings1, ratings2):
     return dot / (sqrt(d1)*sqrt(d2))
 
 
-def find_predicted_ratings_for_data(user_1_data):
+def find_predicted_ratings_for_data(user_1_data, similar_movies):
     """
     This method finds movies that other people who like the same stuff as you also like-
     doesn't take into account if you have any genres/movies that are related to that movie
@@ -74,8 +76,23 @@ def find_predicted_ratings_for_data(user_1_data):
     return sorted(predicted_ratings.items(), key=itemgetter(1), reverse=True)
 
 
-## EX WHAT TO DO:
 data = MovieRatingData()
 test_users = list(data.TEST_DATA.keys())
-print(find_predicted_ratings_for_data(data.TEST_DATA[test_users[0]]))
-# compare those results to what's in data.TEST_DATA[test_users[0]]
+# average_off = []
+# for user in test_users:
+#     actual_data = data.TEST_DATA[test_users[0]]
+#     predicted_data = dict(find_predicted_ratings_for_data(actual_data))
+#     for movie, rating in actual_data.items():
+#         predicted_rating = predicted_data[movie]
+#         average_off.append(abs(rating-predicted_rating))
+# print(mean(average_off))
+rec = KnnRecommender()
+similar_movies = {}
+for movie in data.all_movies:
+    similar_movies[movie] = set(rec.make_recommendations(movie))
+average_num_recommended_and_rated = []
+for user in test_users:
+    actual_data = data.TEST_DATA[test_users[0]]
+    predicted_data = dict(find_predicted_ratings_for_data(actual_data, similar_movies)).keys()
+    average_num_recommended_and_rated.append(len(set(predicted_data) & set(actual_data.keys())))
+print(mean(average_num_recommended_and_rated))
